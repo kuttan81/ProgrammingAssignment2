@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Function returns the inverse of the input matrix
-## It first tries to retrieve the inverse from the above function. If the inverse exists, the cached value is returned
+## It first tries to retrieve the inverse from the cache using the above function. If the inverse exists, the cached value is returned
 ## If the inverse does not exist, it calculates the inverse, stores it in cache via the above function and returns the inverse
 
 cacheSolve <- function(x, ...) {
