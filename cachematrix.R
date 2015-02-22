@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Function returns the invesrse of the input matrix
+## Function returns the inverse of the input matrix
 ## It first tries to retrieve the inverse from the above function. If the inverse exists, the cached value is returned
 ## If the inverse does not exist, it calculates the inverse, stores it in cache via the above function and returns the inverse
 
