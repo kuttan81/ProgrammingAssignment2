@@ -1,8 +1,8 @@
 ## This function returns a list with the below functions
-## sets the matrix value
-## gets the matrix value
-## gets the matrix inverse if it exists
-## sets the matrix inverse
+## set - sets the matrix value
+## get - gets the matrix value
+## getinverse - gets the matrix inverse if it exists
+## setinverse - sets the matrix inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -19,8 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Function returns the inverse of the input matrix
-## It first tries to retrieve the inverse from the cache using the above function. If the inverse exists, the cached value is returned
-## If the inverse does not exist, it calculates the inverse, stores it in cache via the above function and returns the inverse
+## It first tries to retrieve the inverse from the cache. If the inverse exists in the cache, the cached value is returned
+## If the inverse does not exist, it calculates the inverse, stores it in cache and returns the inverse
 
 cacheSolve <- function(x, ...) {
         i <- x$getinverse()
