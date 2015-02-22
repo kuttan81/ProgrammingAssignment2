@@ -1,3 +1,4 @@
+## This function returns a list with the below functions
 ## sets the matrix value
 ## gets the matrix value
 ## gets the matrix inverse if it exists
